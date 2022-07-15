@@ -427,6 +427,14 @@ element.style {
         width: 380px;
     }
 
+    .backFormula .frontFormula p{
+        max-width: 300px;
+    }
+
+    .backFormula .frontFormula h2{
+        max-width: 300px;
+    }
+
     .dLevelsInfoContainer{
         height: 1100px;
         /* display: block; */
@@ -443,10 +451,6 @@ element.style {
 
     .dLevels{
         flex-direction: column;
-    }
-
-    .hide{
-        display: none;
     }
 
     .maps{
@@ -477,8 +481,6 @@ element.style {
     }
 }
 
-@media only screen and (min-width: 1400px){
-}
 
 
 
