@@ -202,6 +202,11 @@ body {
     line-height: 55px;
 }
 
+.dMaps {
+    display: flex;
+    justify-content: center;
+}
+
 .backFormula{
     background-image: url(../images/formula.jfif)no-repeat center center fixed;
     background-size: cover;
@@ -453,10 +458,14 @@ element.style {
         flex-direction: column;
     }
 
-    .maps{
+    .dMaps {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dMaps .maps{
         width: 400px;
         height: 400px;
-        
     }
 
     .gallery {
