@@ -208,7 +208,7 @@ body {
 }
 
 .backFormula .frontFormula {
-    height: 200px;
+    height: 240px;
     background: var(--background);
     display: flex;
     flex-direction: column;
