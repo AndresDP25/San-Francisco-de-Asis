@@ -22,18 +22,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 80px;
 }
 
 .back{
     background: url(../images/San_francisco.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 300px;
+    height: 280px;
     position: relative;
 }
 
 .back .front{
-    height: 300px;
+    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +171,7 @@ body {
 }
 
 .dLevelsInfo .dLevels .dLevelsSection img{
-    height: 220px;
+    height: 180px;
 
 }
 
