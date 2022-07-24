@@ -28,12 +28,12 @@ body {
 .back{
     background: url(../images/San_francisco.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 280px;
+    height: 200px;
     position: relative;
 }
 
 .back .front{
-    height: 280px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,12 +73,12 @@ body {
     border: 2px solid #ffff;
     color: #333333;
     font-weight: 700;
-    width: 200px;
-    height: 60px;
+    width: 180px;
+    height: 50px;
 }
 
 .back .front .infoForm h3{
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .back .front .infoForm .contactSend:hover{
@@ -130,7 +130,7 @@ body {
 }
 
 .dLevelsInfoContainer {
-    height: 500px;
+    height: 350px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -138,8 +138,7 @@ body {
 }
 
 .dLevelsInfoContainer .dLevelsInfo{
-    /* width: 960px; */
-    height: 480px;
+    padding: 20px;
 }
 
 .dLevelsInfoContainer .dLevelsInfo .dLevelsInfoTitles{
@@ -171,7 +170,7 @@ body {
 }
 
 .dLevelsInfo .dLevels .dLevelsSection img{
-    height: 180px;
+    height: 150px;
 
 }
 
@@ -213,7 +212,7 @@ body {
 
 
 .backFormula .frontFormula {
-    height: 240px;
+    height: 180px;
     background: var(--background);
     display: flex;
     flex-direction: column;
@@ -261,7 +260,7 @@ body {
 }
 
 .dKind .dKindBoy .kindBoy {
-    height: 600px;
+    height: 450px;
     margin-top: 0;
     text-align: left;
     
