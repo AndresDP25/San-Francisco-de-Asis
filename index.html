@@ -474,10 +474,11 @@
         </div>
         <div class="dcForm">
             <h3>CONTACTANOS</h3>
-            <form class="row g-3" action="">
+            <form class="row g-3" action="https://formspree.io/f/xbjwnqyo"
+            method="POST">
                 <div class="col-md-12">
                     <label for="firstName" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="Nombre" required>
+                    <input type="text" class="form-control" id="firstName" placeholder="Nombre" name="name" required>
                 </div>
                 <div class="col-md-12">
                     <label for="lastName" class="form-label">Apellido</label>
@@ -485,15 +486,15 @@
                 </div>
                 <div class="col-md-12">
                     <label for="emailInfo" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="emailInfo" placeholder="Dirección de correo electrónico" required>
+                    <input type="email" class="form-control" id="emailInfo" placeholder="Dirección de correo electrónico" name="email" required>
                 </div>
                 <div class="col-md-12">
                     <label for="phoneNumber" class="form-label">Teléfono</label>
-                    <input type="email" class="form-control" id="phoneNumber" placeholder="Número de teléfono" required>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Número de teléfono" required>
                 </div>
                 <div class="col-md-12">
                     <label for="comments" class="form-label">Comentarios, preguntas ? </label>
-                    <textarea class="form-control" id="comments" rows="2"></textarea>
+                    <textarea class="form-control" id="comments" rows="2" name="message"></textarea>
                 </div>
                 <div class="dSend">
                     <button type="submit" class="btn send">ENVIAR</button>
