@@ -223,7 +223,7 @@ body {
 }
 
 .backFormula .frontFormula h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .backFormula .frontFormula p{
@@ -341,7 +341,7 @@ element.style {
 .contacto{
     background: var(--background);
     color: #FFFF;
-    height: 300px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
