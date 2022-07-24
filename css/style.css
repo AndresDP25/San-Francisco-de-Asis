@@ -13,49 +13,39 @@ body {
     margin: 0;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    /* position: sticky; */
-    top: 0;
-    z-index: 1;
+.contenedorHeader{
     background: var(--background)!important;
     
 }
 
-.headerLogo .container{
+.contenedorHeader .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 100px;
 }
 
 .back{
     background: url(../images/San_francisco.jpg) no-repeat center center fixed;
     background-size: cover;
-    /* -moz-opacity:.90;opacity:.90; */
-
+    height: 300px;
+    position: relative;
 }
 
 .back .front{
-    height: 728px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,.40);
-    /* -moz-opacity:.70;opacity:.70; */
 }
 
 .back .front .infoForm {
     color: #FFFF;
-    width: 500px;
+    width: 880px;
     text-align: center;
     margin-right: 30px;
     
-}
-
-.back .front .infoForm .imgHeader{
-    width: 300px;
 }
 
 .back .front .infoForm .proyect{
@@ -79,17 +69,21 @@ body {
 }
 
 .back .front .infoForm .contactSend{
-    background: none;
+    background: #FFFF;
     border: 2px solid #ffff;
-    color: #ffff;
+    color: #333333;
     font-weight: 700;
     width: 200px;
     height: 60px;
 }
 
+.back .front .infoForm h3{
+    font-size: 45px;
+}
+
 .back .front .infoForm .contactSend:hover{
-    background: #FFFF;
-    color: #333333;
+    color: #fff;
+    background: var(--background);
 }
 
 .dcForm{
@@ -136,7 +130,7 @@ body {
 }
 
 .dLevelsInfoContainer {
-    height: 620px;
+    height: 500px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -177,7 +171,7 @@ body {
 }
 
 .dLevelsInfo .dLevels .dLevelsSection img{
-    height: 267px;
+    height: 220px;
 
 }
 
@@ -202,15 +196,21 @@ body {
     line-height: 55px;
 }
 
+.formularioContacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    margin-right: 200px;
+}
+
 .dMaps {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.backFormula{
-    background-image: url(../images/formula.jfif)no-repeat center center fixed;
-    background-size: cover;
-}
+
 
 .backFormula .frontFormula {
     height: 240px;
@@ -257,17 +257,18 @@ body {
     color: #696969;
     font-size: 20px;
     font-weight: 600;
+    
 }
 
 .dKind .dKindBoy .kindBoy {
-    height: 750px;
+    height: 600px;
     margin-top: 0;
     text-align: left;
     
 }
 
 .dKind .dKindBoy .primaryBoy{
-    height: 1120px;
+    height: 500px;
     margin-top: 0;
     text-align: left;
 }
@@ -332,10 +333,16 @@ element.style {
     text-align: center;
 }
 
+.hr{
+    /* border: 0; */
+    border-top: 1px solid black;
+    margin-top: 70px; 
+}
+
 .contacto{
     background: var(--background);
     color: #FFFF;
-    height: 370px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -404,8 +411,6 @@ element.style {
 }
 
 
-
-
 @media only screen and (max-width: 1200px){
 
     .details{
@@ -416,12 +421,12 @@ element.style {
         width: 400px;
     }
 
-    .inscripciones {
-        display: none;
+    .back .front .infoForm{
+        padding: 20px;
     }
 
-    .infoForm {
-        display: none;
+    .back .front .infoForm h3{
+        font-size: 30px;
     }
 
     .kindBoy {
@@ -442,8 +447,6 @@ element.style {
 
     .dLevelsInfoContainer{
         height: 1100px;
-        /* display: block; */
-        margin: 50px 0;
         display: flex;
         align-items: baseline;
         justify-content: center;
@@ -458,13 +461,19 @@ element.style {
         flex-direction: column;
     }
 
+    .dcForm{
+        display: none;
+
+    }
+
     .dMaps {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .dMaps .maps{
-        width: 400px;
+        /* width: 400px; */
         height: 400px;
     }
 
@@ -488,7 +497,13 @@ element.style {
     .dImgHeader{
         margin: 0 auto;
     }
+
+    .formularioContacto{
+        margin-right: 0;
+    }
 }
+
+
 
 
 
