@@ -11,6 +11,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .contenedorHeader{
@@ -49,7 +50,6 @@ body {
 }
 
 .back .front .infoForm .proyect{
-    font-family: Muli;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
@@ -112,10 +112,11 @@ body {
 }
 
 .inscripciones {
-    font-size: 25px;
+    width: 130px;
+    /* font-size: 25px;
     font-weight: 700;
-    color: #FFFF;
-    font-family:'Courier New', Courier, monospace;
+    color: #FFFF; */
+    /* font-family:'Courier New', Courier, monospace; */
     
 }
 
@@ -193,6 +194,16 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 55px;
+}
+
+.accordion-button{
+    font-size: 20px;
+
+}
+
+.accordion-body{
+    font-size: 18px;
+    color: #666666;
 }
 
 .formularioContacto {
@@ -445,7 +456,7 @@ element.style {
     }
 
     .dLevelsInfoContainer{
-        height: 870px;
+        height: 1100px;
         display: flex;
         align-items: baseline;
         justify-content: center;
